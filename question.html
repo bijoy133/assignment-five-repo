@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#F4F7FF]">
+    <header class="w-11/12 mx-auto mt-4">
+        <div class="navbar bg-base-100 shadow-sm rounded-xl">
+   <div class="flex flex-1 gap-2  ">
+     <img class="w-10" src="assets/logo.png" alt="">
+     <h1 class="text-2xl ">Dev<span class="font-bold">Boord</span> </h1>
+   </div>
+   <div class="flex-none">
+    <div class="flex  gap-6 ">
+   <div class=" flex items-center bg-[#F4F7FF] p-2 gap-2 rounded-xl">
+     <img class="w-5 h-5" src="assets/checkbox.png" alt="">
+     <h2 class="text-xl font-bold">23</h2>
+   </div>
+     <div>
+        <button> <img class="w-8" src="assets/theme-btn.png" alt=""></button>
+        </div>
+    </div>
+ 
+     
+   </div>
+ </div>
+     </header >
+     <main class="w-11/12 mx-auto">
+       
+        <section class="py-6 space-y-4">
+            <h1 class="text-xl text-center font-bold">Blogs</h1>
+            <div class="space-y-1">
+                <p class="bg-[#FFFFFF] p-5">Question-1: What are the different ways to select an element in the DOM?</p>
+                <p class="bg-[#FFFFFF] p-5">
+                   Ans: Different Ways to Select an Element in the DOM by Selecting an Element by ID,  Selecting Elements by Class Name, Selecting Elements by Tag Name,  Selecting an Element Using querySelector().
+                </p>
+            </div>
+            <div class="space-y-1">
+                <p class="bg-[#FFFFFF] p-5">Question-2: What is the difference between innerHTML, innerText, and textContent ?</p>
+                <p class="bg-[#FFFFFF] p-5">
+                    Ans: The difference between innerHTML, innerText, and textContent in JavaScript. innerHTML returns or sets the HTML content inside an element, including any HTML tags and innerText It returns or sets only the visible text inside an element, ignoring hidden elements or extra spaces and textContent returns or sets all the text content of an element, including hidden elements, but without parsing HTML tags.
+                </p>
+            </div>
+            <div class="space-y-1">
+                <p class="bg-[#FFFFFF] p-5">Question-3: What is event delegation in the DOM?
+                <p class="bg-[#FFFFFF] p-5">
+                  Ans:  Event delegation in the DOM is a technique where a single event listener is added to a parent element, instead of adding individual listeners to each child element. This allows the parent to handle events for its child elements. The event listener on the parent element captures events that "bubble up" from child elements, allowing you to manage events for multiple elements with less code and better performance.
+                </p>
+            </div>
+            <div class="space-y-1">
+                <p class="bg-[#FFFFFF] p-5">Question-4: What is event bubbling in the DOM?</p>
+                <p class="bg-[#FFFFFF] p-5">
+                   Ans: Event bubbling in the DOM is the process by which an event, triggered on a target element, propagates upward through its ancestors in the DOM tree, from the target element to the root (document or window). This means that when an event occurs on a child element, it first runs the event handler for that element, and then the event "bubbles up" to the parent elements, allowing each parent to potentially handle the event as well.
+                </p>
+            </div>
+            <div class="space-y-1">
+                <p class="bg-[#FFFFFF] p-5">Question-5: How do you create, add, and remove elements using JavaScript?</p>
+                <p class="bg-[#FFFFFF] p-5">
+                   Ans: I can create a new element using document.createElement(). I can add the newly created element to the DOM using methods like appendChild(), insertBefore(), or append() and I can remove elements from the DOM using removeChild() or remove().
+                </p>
+            </div>
+         
+        </section>
+    </main>
+  
+</body>
+</html>
